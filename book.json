@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "title": "The Lost Kingdom",
+        "author": "Emily Drake",
+        "genre": "Fantasy",
+        "publicationDate": "2020-05-15",
+        "description": "An epic tale of a hidden kingdom and the journey to reclaim it from ancient forces.",
+        "image": "https://example.com/images/lost-kingdom.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Shadows of the Mind",
+        "author": "Michael Ridge",
+        "genre": "Thriller",
+        "publicationDate": "2018-09-20",
+        "description": "A psychological thriller that delves into the darkest corners of the human mind.",
+        "image": "https://example.com/images/shadows-mind.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Beyond the Stars",
+        "author": "Catherine Miller",
+        "genre": "Science Fiction",
+        "publicationDate": "2019-11-10",
+        "description": "A gripping sci-fi adventure exploring distant galaxies and the mysteries that lie beyond.",
+        "image": "https://example.com/images/beyond-stars.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Whispers in the Wind",
+        "author": "Sarah Collins",
+        "genre": "Romance",
+        "publicationDate": "2021-02-25",
+        "description": "A heartfelt romance set in a quaint seaside town, where love is found in the most unexpected places.",
+        "image": "https://example.com/images/whispers-wind.jpg"
+    },
+    {
+        "id": 5,
+        "title": "The Forgotten Realm",
+        "author": "David Stone",
+        "genre": "Fantasy",
+        "publicationDate": "2017-07-14",
+        "description": "A young hero embarks on a quest to discover a forgotten realm and the secrets it holds.",
+        "image": "https://example.com/images/forgotten-realm.jpg"
+    }
+]
