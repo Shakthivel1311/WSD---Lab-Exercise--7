@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Home</title>
+    <link rel="stylesheet" href="Book.css">
+</head>
+
+<body>
+    <header>
+        <h1>Amayra Library</h1>
+        <p>Welcome to Our Library to Explore, Learn, and Grow with Us</p>
+    </header>
+
+    <div id="searchBar">
+        <input type="text" placeholder="Search for books, authors, genres...">
+        <button>Search</button>
+    </div>
+
+    <main>
+        <section class="section" id="popularBooks">
+            <h2>Popular Books</h2>
+            <div class="books-container">
+                <div class="book-card">
+                    <img src="images/1.jpg" alt="Pride and Prejudice">
+                    <h3>Pride and Prejudice</h3>
+                    <p>Jane Austen</p>
+                </div>
+                <div class="book-card">
+                    <img src="images/2.jpg" alt="The Adventures of Huckleberry Finn">
+                    <h3>The Adventures of Huckleberry Finn</h3>
+                    <p>Mark Twain</p>
+                </div>
+                <div class="book-card">
+                    <img src="images/3.jpg" alt="To the Lighthouse">
+                    <h3>To the Lighthouse</h3>
+                    <p>Virginia Woolf</p>
+                </div>
+                <div class="book-card">
+                    <img src="images/4.jpg" alt="War and Peace">
+                    <h3>War and Peace</h3>
+                    <p>Leo Tolstoy</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="newArrivals">
+            <h2>New Arrivals</h2>
+            <div class="books-container">
+                <div class="book-card">
+                    <img src="images/5.jpg" alt="Crime and Punishment">
+                    <h3>Crime and Punishment</h3>
+                    <p>Fyodor Dostoevsky</p>
+                </div>
+                <div class="book-card">
+                    <img src="images/6.jpg" alt="Where the Crawdads Sing">
+                    <h3>Where the Crawdads Sing</h3>
+                    <p>Delia Owens</p>
+                </div>
+                <div class="book-card">
+                    <img src="images/7.jpg" alt="The Nightingale">
+                    <h3>The Nightingale</h3>
+                    <p>Kristin Hannah</p>
+                </div>
+                <div class="book-card">
+                    <img src="images/8.jpg" alt="Harry Potter">
+                    <h3>Harry Potter</h3>
+                    <p>J. K. Rowling</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="bookCatalogue">
+            <h2>Book Catalogue</h2>
+            <div id="controls">
+                <input type="text" id="search" placeholder="Search by title or author...">
+                <select id="genreFilter">
+                    <option value="">All Genres</option>
+                    <option value="Fantasy">Fantasy</option>
+                    <option value="Thriller">Thriller</option>
+                    <option value="Science Fiction">Science Fiction</option>
+                    <option value="Romance">Romance</option>
+                </select>
+                <select id="sortOrder">
+                    <option value="asc">Sort by Publication Date (Ascending)</option>
+                    <option value="desc">Sort by Publication Date (Descending)</option>
+                </select>
+            </div>
+            <div id="bookList"></div>
+            <div id="pagination"></div>
+        </section>
+
+        <div id="loadingSpinner"></div>
+
+        <div id="modalOverlay"></div>
+        <div id="bookDetailsModal">
+            <h3 id="modalTitle"></h3>
+            <p><strong>Author:</strong> <span id="modalAuthor"></span></p>
+            <p><strong>Genre:</strong> <span id="modalGenre"></span></p>
+            <p><strong>Published:</strong> <span id="modalPublicationDate"></span></p>
+            <p><strong>Description:</strong> <span id="modalDescription"></span></p>
+            <p><strong>Reviews:</strong></p>
+            <div id="modalReviews"></div>
+            <button id="closeModal">Close</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Amayra Library. All rights reserved.</p>
+    </footer>
+
+    <script src="book.js"></script>
+</body>
+
+</html>
