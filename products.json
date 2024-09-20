@@ -1,58 +1,200 @@
 [
     {
         "id": 1,
-        "name": "Elegant Red Dress",
-        "price": 799,
-        "image": "../images/dress-1.jpg",
-        "rating": 4.5
+        "name": "Floral Summer Dress",
+        "image": "https://example.com/floral_summer_dress.jpg",
+        "price": 1200,
+        "rating": 4,
+        "category": "casual",
+        "description": "A beautiful floral summer dress perfect for warm weather outings.",
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "red",
+            "blue",
+            "white"
+        ],
+        "availability": "In Stock"
     },
     {
         "id": 2,
-        "name": "Casual Floral Dress",
-        "price": 599,
-        "image": "../images/dress-2.jpg",
-        "rating": 4
+        "name": "Elegant Evening Gown",
+        "image": "https://example.com/elegant_evening_gown.jpg",
+        "price": 3500,
+        "rating": 5,
+        "category": "formal",
+        "description": "A stunning evening gown for formal events and gala nights.",
+        "size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "black",
+            "emerald",
+            "navy"
+        ],
+        "availability": "In Stock"
     },
     {
         "id": 3,
-        "name": "Party Gown",
-        "price": 999,
-        "image": "../images/dress-3.jpg",
-        "rating": 4
+        "name": "Casual Day Dress",
+        "image": "https://example.com/casual_day_dress.jpg",
+        "price": 950,
+        "rating": 3,
+        "category": "casual",
+        "description": "A comfy and light casual dress ideal for everyday wear.",
+        "size": [
+            "S",
+            "M",
+            "L"
+        ],
+        "color": [
+            "yellow",
+            "pink",
+            "green"
+        ],
+        "availability": "Limited Stock"
     },
     {
         "id": 4,
-        "name": "Summer Maxi Dress",
-        "price": 699,
-        "image": "../images/dress-4.jpg",
-        "rating": 3.5
+        "name": "Party Sequin Dress",
+        "image": "https://example.com/party_sequin_dress.jpg",
+        "price": 2700,
+        "rating": 4,
+        "category": "party",
+        "description": "Shine at the party with this glamorous sequin dress.",
+        "size": [
+            "M",
+            "L"
+        ],
+        "color": [
+            "silver",
+            "gold"
+        ],
+        "availability": "In Stock"
     },
     {
         "id": 5,
-        "name": "Classic Black Dress",
-        "price": 899,
-        "image": "../images/dress-5.jpg",
-        "rating": 5
+        "name": "Formal Business Dress",
+        "image": "https://example.com/formal_business_dress.jpg",
+        "price": 1800,
+        "rating": 5,
+        "category": "formal",
+        "description": "A stylish yet professional dress perfect for business meetings.",
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "black",
+            "grey",
+            "navy"
+        ],
+        "availability": "In Stock"
     },
     {
         "id": 6,
-        "name": "Chiffon Gown",
-        "price": 1099,
-        "image": "../images/dress-6.jpg",
-        "rating": 4.5
+        "name": "Cocktail Dress",
+        "image": "https://example.com/cocktail_dress.jpg",
+        "price": 2200,
+        "rating": 4,
+        "category": "party",
+        "description": "A chic cocktail dress that is perfect for evening parties.",
+        "size": [
+            "S",
+            "M",
+            "L"
+        ],
+        "color": [
+            "burgundy",
+            "navy",
+            "black"
+        ],
+        "availability": "Limited Stock"
     },
     {
         "id": 7,
-        "name": "Bohemian Dress",
-        "price": 799,
-        "image": "../images/dress-7.jpg",
-        "rating": 3.5
+        "name": "Casual Maxi Dress",
+        "image": "https://example.com/casual_maxi_dress.jpg",
+        "price": 1600,
+        "rating": 4,
+        "category": "casual",
+        "description": "A flowy maxi dress, comfortable and stylish for any casual occasion.",
+        "size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "white",
+            "black",
+            "blue"
+        ],
+        "availability": "Out of Stock"
     },
     {
         "id": 8,
-        "name": "Formal Blue Dress",
-        "price": 1199,
-        "image": "../images/dress-8.jpg",
-        "rating": 5
+        "name": "Formal Black Dress",
+        "image": "https://example.com/formal_black_dress.jpg",
+        "price": 2500,
+        "rating": 5,
+        "category": "formal",
+        "description": "An elegant black dress suitable for formal dinners and events.",
+        "size": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "black"
+        ],
+        "availability": "In Stock"
+    },
+    {
+        "id": 9,
+        "name": "Bohemian Beach Dress",
+        "image": "https://example.com/bohemian_beach_dress.jpg",
+        "price": 1800,
+        "rating": 4,
+        "category": "casual",
+        "description": "A light and airy dress perfect for beach outings.",
+        "size": [
+            "S",
+            "M",
+            "L"
+        ],
+        "color": [
+            "white",
+            "light blue",
+            "peach"
+        ],
+        "availability": "In Stock"
+    },
+    {
+        "id": 10,
+        "name": "Sparkling Prom Dress",
+        "image": "https://example.com/sparkling_prom_dress.jpg",
+        "price": 3200,
+        "rating": 5,
+        "category": "party",
+        "description": "A sparkling prom dress for a night to remember.",
+        "size": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "color": [
+            "rose gold",
+            "silver"
+        ],
+        "availability": "In Stock"
     }
 ]
