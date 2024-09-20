@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Elegant Red Dress",
+        "price": 799,
+        "image": "../images/dress-1.jpg",
+        "rating": 4.5
+    },
+    {
+        "id": 2,
+        "name": "Casual Floral Dress",
+        "price": 599,
+        "image": "../images/dress-2.jpg",
+        "rating": 4
+    },
+    {
+        "id": 3,
+        "name": "Party Gown",
+        "price": 999,
+        "image": "../images/dress-3.jpg",
+        "rating": 4
+    },
+    {
+        "id": 4,
+        "name": "Summer Maxi Dress",
+        "price": 699,
+        "image": "../images/dress-4.jpg",
+        "rating": 3.5
+    },
+    {
+        "id": 5,
+        "name": "Classic Black Dress",
+        "price": 899,
+        "image": "../images/dress-5.jpg",
+        "rating": 5
+    },
+    {
+        "id": 6,
+        "name": "Chiffon Gown",
+        "price": 1099,
+        "image": "../images/dress-6.jpg",
+        "rating": 4.5
+    },
+    {
+        "id": 7,
+        "name": "Bohemian Dress",
+        "price": 799,
+        "image": "../images/dress-7.jpg",
+        "rating": 3.5
+    },
+    {
+        "id": 8,
+        "name": "Formal Blue Dress",
+        "price": 1199,
+        "image": "../images/dress-8.jpg",
+        "rating": 5
+    }
+]
